@@ -2,7 +2,7 @@
 
 Official repository for **QVTX One**, issued by QUANTVESTRIX, INC.
 
-Website: **https://qone.qusd.us** · Full contract registry: **https://qusdscan.us/contracts**
+Website: **https://qone.qusd.us** · X: **[@QvtxQusd](https://x.com/qvtxqusd)** · Full contract registry: **https://qusdscan.us/contracts**
 
 | | |
 |---|---|
