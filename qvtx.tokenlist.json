@@ -1,0 +1,301 @@
+{
+  "name": "QVTX",
+  "timestamp": "2026-10-20T06:43:34.000Z",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "qvtx",
+    "qusd",
+    "qone",
+    "stablecoin",
+    "byteid",
+    "fiat-backed"
+  ],
+  "logoURI": "https://qusdscan.us/brand/qvtx-256.png",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xba2aAAf685f58156b6420D06FA169B61ED53B945",
+      "name": "QVTX One",
+      "symbol": "QONE",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qvtx-256.png",
+      "tags": [
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "totalSupplyAtBuild": "500000000000.000000",
+        "measuredAt": "2026-10-20T06:43:30Z",
+        "note": "the live 500bn coin"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xe31a3F79c28631de498E25B3230572bEACCbffBa",
+      "name": "QVTX One Par Vault",
+      "symbol": "vQONE",
+      "decimals": 18,
+      "tags": [
+        "vault",
+        "erc4626"
+      ],
+      "extensions": {
+        "standard": "ERC4626",
+        "asset": "0xba2aAAf685f58156b6420D06FA169B61ED53B945",
+        "sharePrice": "exactly 1.0, no yield strategy",
+        "redeem": "burns shares and transfers in one tx"
+      },
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x4A9463EFf350d90927A45b9Bd39F59eBa24c7969",
+      "name": "QVTX One",
+      "symbol": "QONE",
+      "decimals": 18,
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "backingBps": 10000,
+        "fullyBacked": true,
+        "collateral": "0xb23807e78DCA0DF5b64c483BD8A2CdAe5c2249e9",
+        "parVault": "0x0e05c6403AC33faC61900563a83b27068367B703",
+        "foldRegistry": "0xd73B44fe677D13aEe8634a2c4D1DcbFa93fEBe19",
+        "buildByteId": "QVTX-AAA-7587d8f1-e8e02b83-e4be-X-a024",
+        "verifyCall": "byteidEncoding provenanceOf isoByteIdOf",
+        "fiatByteId1": {
+          "sense": "QVTX-AGA-20c06dc4-cad7dc21-9ecc-X-949d",
+          "shadow": "QVTX-TCT-69506c0b-e7f20c95-fd33-F-af4d",
+          "iso20022": "AGA20c06dc4cad7dc219eccX949d",
+          "usd": 5000000000.0
+        }
+      },
+      "logoURI": "https://qusdscan.us/brand/qvtx-256.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0x5a8BA77Fcc84f6766f6EB54477149C7b9Aa0A2fa",
+      "name": "QVTX USD",
+      "symbol": "QUSD",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "totalSupplyAtBuild": "500000001.000000",
+        "measuredAt": "2026-10-20T06:43:32Z",
+        "note": "cascade coin - byte-identical runtime"
+      }
+    },
+    {
+      "chainId": 56,
+      "address": "0x0e05c6403AC33faC61900563a83b27068367B703",
+      "name": "QVTX One Par Vault",
+      "symbol": "vQONE",
+      "decimals": 18,
+      "tags": [
+        "vault",
+        "erc4626"
+      ],
+      "extensions": {
+        "standard": "ERC4626",
+        "asset": "0x4A9463EFf350d90927A45b9Bd39F59eBa24c7969",
+        "sharePrice": "exactly 1.0, no yield strategy",
+        "redeem": "burns shares and transfers in one tx"
+      },
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xC88BaD1688bD1725F02f3CF6e5657c1155a4D12c",
+      "name": "QVTX One",
+      "symbol": "QONE",
+      "decimals": 18,
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "backingBps": 10000,
+        "fullyBacked": true,
+        "collateral": "0xAE4194b26bE459c6b6D4AFfa0F73F9A0fca7C6d7",
+        "parVault": "0x5c83F2c6b66B8189D79E5e2b2821Ab9D401e7645",
+        "foldRegistry": "0x213FFd3A6e0446c93bdeee9d34f5d102a0A2899a",
+        "buildByteId": "QVTX-AAA-51f685bb-91745141-b023-X-9feb",
+        "verifyCall": "byteidEncoding provenanceOf isoByteIdOf",
+        "fiatByteId1": {
+          "sense": "QVTX-AGA-e8027820-7c38dd71-330e-X-8440",
+          "shadow": "QVTX-TCT-2cc6b501-ce730b66-e7d8-F-df95",
+          "iso20022": "AGAe80278207c38dd71330eX8440",
+          "usd": 5000000000.0
+        }
+      },
+      "logoURI": "https://qusdscan.us/brand/qvtx-256.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0xA225D99ED91c3592bE1396324B81A52A184b30E2",
+      "name": "QVTX USD",
+      "symbol": "QUSD",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "totalSupplyAtBuild": "3476000017.923526",
+        "measuredAt": "2026-10-20T06:43:31Z",
+        "note": "cascade coin - QUSD_Universal, runtime 0f229ab7058a0d92"
+      }
+    },
+    {
+      "chainId": 137,
+      "address": "0xb57bf3c50f20096723b46645f741f632aef220fa",
+      "name": "QVTX USD",
+      "symbol": "QUSD",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "totalSupplyAtBuild": "1101500602.519078",
+        "measuredAt": "2026-10-20T06:43:31Z",
+        "note": "corridor coin"
+      }
+    },
+    {
+      "chainId": 137,
+      "address": "0x5c83F2c6b66B8189D79E5e2b2821Ab9D401e7645",
+      "name": "QVTX One Par Vault",
+      "symbol": "vQONE",
+      "decimals": 18,
+      "tags": [
+        "vault",
+        "erc4626"
+      ],
+      "extensions": {
+        "standard": "ERC4626",
+        "asset": "0xC88BaD1688bD1725F02f3CF6e5657c1155a4D12c",
+        "sharePrice": "exactly 1.0, no yield strategy",
+        "redeem": "burns shares and transfers in one tx"
+      },
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x4618091C333819e913de6632Bc26D60503E4bAF6",
+      "name": "QVTX One",
+      "symbol": "QONE",
+      "decimals": 18,
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "backingBps": 10000,
+        "fullyBacked": true,
+        "collateral": "0xfb8aeED28619D925c2774CbA0Dbc88a2be5e3524",
+        "parVault": "0x1482b47691f83AFde7989E1D72bAeC341C69B33F",
+        "foldRegistry": "0x69675a51C15C91713cA7bf8DCA0B0f40e4262E6C",
+        "buildByteId": "QVTX-AAA-ed9038bf-8c772f67-7680-X-98ae",
+        "verifyCall": "byteidEncoding provenanceOf isoByteIdOf",
+        "fiatByteId1": {
+          "sense": "QVTX-GAG-78a1a95b-5c938435-504b-X-896f",
+          "shadow": "QVTX-TCT-05d2c525-b2c0e061-8ea5-F-7a77",
+          "iso20022": "GAG78a1a95b5c938435504bX896f",
+          "usd": 5000000000.0
+        }
+      },
+      "logoURI": "https://qusdscan.us/brand/qvtx-256.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x1482b47691f83AFde7989E1D72bAeC341C69B33F",
+      "name": "QVTX One Par Vault",
+      "symbol": "vQONE",
+      "decimals": 18,
+      "tags": [
+        "vault",
+        "erc4626"
+      ],
+      "extensions": {
+        "standard": "ERC4626",
+        "asset": "0x4618091C333819e913de6632Bc26D60503E4bAF6",
+        "sharePrice": "exactly 1.0, no yield strategy",
+        "redeem": "burns shares and transfers in one tx"
+      },
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x3ECcc6E1A19C867E066eD44E4aC539979C1023cf",
+      "name": "QVTX One",
+      "symbol": "QONE",
+      "decimals": 18,
+      "tags": [
+        "stablecoin",
+        "fiatbacked",
+        "byteid"
+      ],
+      "extensions": {
+        "backing": "fiat carried in the ByteID",
+        "backingBps": 10000,
+        "fullyBacked": true,
+        "collateral": "0x143E442C5D99c603f40DFaE6AB5d91c7ff85b22e",
+        "parVault": "0x84411CD18e67eba9a0Bc66172c91bb9Bc6B4BC77",
+        "foldRegistry": "0x4eBA419698DE93885fA5BD7F515EBaCEa16B4EFB",
+        "buildByteId": "QVTX-AAA-94e10cf1-c7f8fea2-bd7a-X-ad2a",
+        "verifyCall": "byteidEncoding provenanceOf isoByteIdOf",
+        "fiatByteId1": {
+          "sense": "QVTX-AGA-c591d57f-60052150-e7dd-X-778a",
+          "shadow": "QVTX-TCT-a8d58dea-6c6c1746-10f1-F-4792",
+          "iso20022": "AGAc591d57f60052150e7ddX778a",
+          "usd": 5000000000.0
+        }
+      },
+      "logoURI": "https://qusdscan.us/brand/qvtx-256.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x84411CD18e67eba9a0Bc66172c91bb9Bc6B4BC77",
+      "name": "QVTX One Par Vault",
+      "symbol": "vQONE",
+      "decimals": 18,
+      "tags": [
+        "vault",
+        "erc4626"
+      ],
+      "extensions": {
+        "standard": "ERC4626",
+        "asset": "0x3ECcc6E1A19C867E066eD44E4aC539979C1023cf",
+        "sharePrice": "exactly 1.0, no yield strategy",
+        "redeem": "burns shares and transfers in one tx"
+      },
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png"
+    }
+  ]
+}
