@@ -55,6 +55,35 @@ exact match is submitted unchanged. A support request is open with them.
 
 We state this plainly rather than leave it to be discovered.
 
+## The systems behind it
+
+QONE is not a token issued onto someone else's infrastructure. The estate runs its own
+chains, its own multi-chain rail, its own price oracle and its own banking core. Every
+figure below was read live on 2026-10-22.
+
+| System | What it is | Live reading |
+|---|---|---|
+| **QUSD Oracle** | Our own oracle, exposing the standard Chainlink `AggregatorV3` surface so any integrator reading a conventional feed can read it unmodified. Same address on four chains: `0xc234af77d0884ffb31a1a604f212bd5d6c75a4e5` | **1.00000000** at 8 decimals on BNB Chain, Polygon, Base and Arbitrum — 2,076 bytes of code on each |
+| **QVTX RPC rail** | A multi-chain read rail that answers only when independent upstreams agree byte for byte; disagreement returns an error rather than a silently chosen answer | **14 chains** served |
+| **QVTX chains** | Three chains the estate runs itself, no third party in the path | 42000 — block 1,445,232<br>20232 — block 1,712,779<br>420018 — block 309,478 |
+| **Metatron** | The banking core, with a read-only viewer surface | responding |
+| **STC** | ISO 20022 sender-side API — pacs.008 delivery and pacs.002 receipt issuance, with a compliance gate on every message | 32 assets, 30 reservations, 29 redemptions |
+| **Era** | The treasury book of record across the estate's accounts and containers | 29 accounts |
+| **Fold rail** | Content is stored by folding it to a ByteID the content can be *derived* from, with an independent shadow strand. Identity is the fold of the content, not a label attached to it | every published artefact is folded and recovers byte-exact |
+
+The oracle is QUANTVESTRIX's own. It is third-party *readable*, not third-party *derived*,
+and is published as such rather than presented as independent valuation.
+
+## ISO 20022 carriage
+
+The mint identifier travels on bank rails without truncation. A full ByteID is 38
+characters, which exceeds ISO 20022's `Max35Text`; the contract stores a 28-character form
+that fits, and the full identifier is reproduced from it exactly — `isoByteIdOf(tokenIdOf(...))`
+returns `AGA20d7a05f8a8a2db02d12X7392` for ByteID `QVTX-AGA-20d7a05f-8a8a2db0-2d12-X-7392`.
+
+A pacs.008 carrying the ByteID in `SplmtryData` has been accepted by a live receiver
+returning **ACSC** — AcceptedSettlementCompleted.
+
 ## Token list
 
 Standard token-list format, covering QONE, QUSD and vQONE across all five chains:
