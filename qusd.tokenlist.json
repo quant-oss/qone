@@ -1,0 +1,79 @@
+{
+  "name": "QVTX QUSD Token List",
+  "timestamp": "2026-11-26T00:00:00Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "keywords": ["qvtx", "qusd", "stablecoin", "byteid", "fiat-backed", "erc20"],
+  "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xb57bf3c50f20096723b46645f741f632aef220fa",
+      "symbol": "QUSD",
+      "name": "QVTX USD Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid"],
+      "extensions": {"byteid_key": "1:0xb57bf3c50f20096723b46645f741f632aef220fa:QUSD:18", "peg": "USD", "standard": "ERC-20"}
+    },
+    {
+      "chainId": 56,
+      "address": "0x63C4664CeB3e93ef22d1E56826395Fb1C927C118",
+      "symbol": "QUSD",
+      "name": "QVTX USD Stablecoin (BSC)",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid"],
+      "extensions": {"byteid_key": "56:0x63C4664CeB3e93ef22d1E56826395Fb1C927C118:QUSD:18", "peg": "USD", "standard": "BEP-20"}
+    },
+    {
+      "chainId": 137,
+      "address": "0x8d58dEbF89740Da1416d5f1904E4286096174B5A",
+      "symbol": "pQUSD",
+      "name": "QVTX USD Stablecoin (Polygon)",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid"],
+      "extensions": {"byteid_key": "137:0x8d58dEbF89740Da1416d5f1904E4286096174B5A:pQUSD:18", "peg": "USD", "standard": "ERC-20"}
+    },
+    {
+      "chainId": 8453,
+      "address": "0x02DAE538b3Cf726c04990520454Dd7AD42550b3F",
+      "symbol": "baseQUSD",
+      "name": "QVTX USD Stablecoin (Base)",
+      "decimals": 6,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid"],
+      "extensions": {"byteid_key": "8453:0x02DAE538b3Cf726c04990520454Dd7AD42550b3F:baseQUSD:6", "peg": "USD", "standard": "ERC-20"}
+    },
+    {
+      "chainId": 42161,
+      "address": "0x04321b4Dd2A87dc285E51Fb809acF23D5ca18E17",
+      "symbol": "aQUSD",
+      "name": "QVTX USD Stablecoin (Arbitrum One)",
+      "decimals": 6,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid"],
+      "extensions": {"byteid_key": "42161:0x04321b4Dd2A87dc285E51Fb809acF23D5ca18E17:aQUSD:6", "peg": "USD", "standard": "ERC-20"}
+    },
+    {
+      "chainId": 42000,
+      "address": "0xc71b2B5c87dC677168f974B250383aeEb45f1c9B",
+      "symbol": "QUSD",
+      "name": "QVTX USD Stablecoin (QVTX Chain 42000)",
+      "decimals": 6,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid", "native"],
+      "extensions": {"byteid_key": "42000:0xc71b2B5c87dC677168f974B250383aeEb45f1c9B:QUSD:6", "peg": "USD", "standard": "ERC-20", "ledger": "canonical"}
+    },
+    {
+      "chainId": 138,
+      "address": "0xb5f449cF4618Aaf85d9CD85cc9c7e4d71061DEeA",
+      "symbol": "QUSD3009",
+      "name": "QVTX USD EIP-3009 (D-BIS)",
+      "decimals": 18,
+      "logoURI": "https://qusdscan.us/brand/qusd-256.png",
+      "tags": ["stablecoin", "fiatbacked", "byteid", "eip3009"],
+      "extensions": {"byteid_key": "138:0xb5f449cF4618Aaf85d9CD85cc9c7e4d71061DEeA:QUSD3009:18", "peg": "USD", "standard": "ERC-20/EIP-3009", "network": "D-BIS"}
+    }
+  ]
+}
