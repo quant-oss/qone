@@ -6,7 +6,15 @@
     "minor": 0,
     "patch": 0
   },
-  "keywords": ["qvtx", "qusd", "qone", "stablecoin", "defi", "d-bis", "sovereign"],
+  "keywords": [
+    "qvtx",
+    "qusd",
+    "qone",
+    "stablecoin",
+    "defi",
+    "dbis",
+    "sovereign"
+  ],
   "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
   "tokens": [
     {
@@ -16,9 +24,10 @@
       "name": "QVTX USD Stablecoin",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
-        "byteid_key": "1:0xb57bf3c50f20096723b46645f741f632aef220fa:QUSD:18",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20",
@@ -32,9 +41,10 @@
       "name": "QVTX One",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QONE.png",
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "extensions": {
-        "byteid_key": "1:0xba2aaaf685f58156b6420d06fa169b61ed53b945:QONE:18",
         "source": "QVTX Canonical Registry",
         "standard": "ERC-20",
         "website": "https://qvtx.net"
@@ -47,9 +57,10 @@
       "name": "QVTX USD Stablecoin (BSC)",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
-        "byteid_key": "56:0x63c4664ceb3e93ef22d1e56826395fb1c927c118:QUSD:18",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "BEP-20",
@@ -63,9 +74,10 @@
       "name": "QVTX USD Stablecoin (Polygon)",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
-        "byteid_key": "137:0x8d58debf89740da1416d5f1904e4286096174b5a:pQUSD:18",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20",
@@ -79,9 +91,10 @@
       "name": "QVTX USD Stablecoin (Base)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
-        "byteid_key": "8453:0x02dae538b3cf726c04990520454dd7ad42550b3f:baseQUSD:6",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20",
@@ -95,9 +108,10 @@
       "name": "QVTX USD Stablecoin (Arbitrum One)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
-        "byteid_key": "42161:0x04321b4dd2a87dc285e51fb809acf23d5ca18e17:aQUSD:6",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20",
@@ -111,9 +125,11 @@
       "name": "QVTX USD Stablecoin (QVTX Chain 42000)",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin", "native"],
+      "tags": [
+        "stablecoin",
+        "native"
+      ],
       "extensions": {
-        "byteid_key": "42000:0xc71b2b5c87dc677168f974b250383aeeb45f1c9b:QUSD:6",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20",
@@ -128,9 +144,11 @@
       "name": "QVTX USD EIP-3009 (D-BIS)",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin", "eip3009"],
+      "tags": [
+        "stablecoin",
+        "eip3009"
+      ],
       "extensions": {
-        "byteid_key": "138:0xb5f449cf4618aaf85d9cd85cc9c7e4d71061deea:QUSD3009:18",
         "source": "QVTX Canonical Registry",
         "peg": "USD",
         "standard": "ERC-20 / EIP-3009",
