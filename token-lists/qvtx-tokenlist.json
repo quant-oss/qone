@@ -1,8 +1,18 @@
 {
   "name": "QVTX Token List",
   "timestamp": "2026-11-27T00:00:00.000Z",
-  "version": {"major": 2, "minor": 0, "patch": 0},
-  "keywords": ["qvtx", "qusd", "stablecoin", "defi", "sovereign"],
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "qvtx",
+    "qusd",
+    "stablecoin",
+    "defi",
+    "sovereign"
+  ],
   "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
   "tokens": [
     {
@@ -12,7 +22,9 @@
       "symbol": "QUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 56,
@@ -21,7 +33,9 @@
       "symbol": "QUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 137,
@@ -30,7 +44,9 @@
       "symbol": "pQUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 137,
@@ -39,25 +55,31 @@
       "symbol": "wQVTX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QVTX.png",
-      "tags": ["utility"]
+      "tags": [
+        "utility"
+      ]
     },
     {
       "chainId": 8453,
       "address": "0x02DAE538b3Cf726c04990520454Dd7AD42550b3F",
       "name": "QVTX USD Stablecoin (Base)",
-      "symbol": "baseQUSD",
+      "symbol": "baseQUSD_v2",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 42161,
       "address": "0x04321b4Dd2A87dc285E51Fb809acF23D5ca18E17",
       "name": "QVTX USD Stablecoin (Arbitrum One)",
-      "symbol": "aQUSD",
+      "symbol": "aQUSD_v2",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin"]
+      "tags": [
+        "stablecoin"
+      ]
     },
     {
       "chainId": 42000,
@@ -66,7 +88,10 @@
       "symbol": "QUSD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin", "native"]
+      "tags": [
+        "stablecoin",
+        "native"
+      ]
     },
     {
       "chainId": 138,
@@ -75,7 +100,10 @@
       "symbol": "QUSD3009",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/quant-oss/qone/main/logos/QUSD.png",
-      "tags": ["stablecoin", "eip3009"]
+      "tags": [
+        "stablecoin",
+        "eip3009"
+      ]
     }
   ]
 }
